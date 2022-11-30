@@ -1,0 +1,11 @@
+section#showcase {
+  min-height: 90vh;
+  background: linear-gradient(rgba($black, 0.3), rgba($black, 1)),
+    url(../../images/showcase.jpg) center top / cover no-repeat fixed;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
